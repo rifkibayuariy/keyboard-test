@@ -27,7 +27,7 @@ $(() => {
             if (key.right !== 0) margin = ` mr-${key.right.toString().split(".").join("")}u`
             if (keyCode == 91 && type.name == "windows") name = keyboard.icons[type.name]
 
-            $contents.find(`.keyboard.${type.name}`).append(`<div class="keycaps key-${keyCode}-${location} s-${size}u${ver}${margin}"><p>${name}</p></div>`)
+            $contents.find(`.keyboard.${type.name}`).append(`<div class="keycaps key-${keyCode}-${location} s-${size}u${ver}${margin}"><span>${name}</span></div>`)
         })
     })
     $tabs.find(".tab:first").addClass("active")
