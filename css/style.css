@@ -170,12 +170,6 @@ body {
     width: 29px;
     height: 62px;
 }
-.keyboard.mac .keycaps.s-1u-ver {
-    float: right;
-    /* width: 32px;
-    height: 67px; */
-}
-
 .keyboard.windows .keycaps.s-125u {
     width: 41px;
 }
@@ -332,7 +326,7 @@ span.context > span {
     padding: 20px 0 20px;
 }
 
-.keyboard-info > .container > span {
+.keyboard-info > .container > p {
     margin: 0;
     padding: 0 0 20px;
     font-size: 14px;
@@ -343,7 +337,7 @@ span.context > span {
     font-size: 14px;
 }
 
-.keyboard-info > .container > table span {
+.keyboard-info > .container > table p {
     margin: 0;
 }
 
@@ -756,7 +750,7 @@ footer {
         border-width: 2px;
     }
 
-    .keyboard-info > .container > span,
+    .keyboard-info > .container > p,
     .keyboard-info > .container > table {
         font-size: 16px;
     }
@@ -946,7 +940,7 @@ footer {
         margin-right: 210px;
     }
 
-    .keyboard-info > .container > span,
+    .keyboard-info > .container > p,
     .keyboard-info > .container > table {
         font-size: 18px;
     }
